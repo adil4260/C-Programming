@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main()
 {
     float num1 = 10.4;
