@@ -3,12 +3,11 @@ int main()
 {
     int day;
     scanf("%d", &day);
-    switch (day)
+    switch (day) // day-এর মধ্যে কী value আছে সেটা দেখো।
     {
-    case 1:
+    case 1: // case keyword মূলত switch statement-এর অংশ হিসেবেই ব্যবহার করবে।
         printf("Saturday");
-        break;
-
+        break; // এখানেই switch শেষ করো। আর নিচের case-গুলো দেখার দরকার নেই।
     case 2:
         printf("Sunday");
         break;
@@ -20,6 +19,5 @@ int main()
     default:
         printf("Invalid");
     }
-
     return 0;
 }

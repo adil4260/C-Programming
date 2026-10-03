@@ -3,9 +3,7 @@
 int main()
 {
     int marks;
-
     scanf("%d", &marks);
-
     if (marks >= 80)
     {
         printf("A+");
@@ -30,6 +28,5 @@ int main()
     {
         printf("F");
     }
-
     return 0;
 }
