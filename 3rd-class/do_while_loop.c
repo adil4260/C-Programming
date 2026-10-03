@@ -5,7 +5,7 @@ int main()
     do
     {
         printf("Hello");
-    }
-
+    } 
+    
     while (i <= 5);
 }
