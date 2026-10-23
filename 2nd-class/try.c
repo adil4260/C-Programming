@@ -1,10 +1,10 @@
 #include <stdio.h>
 int main()
 {
-    int n;
+    int x;
     printf("your number is:");
-    scanf("%d", &n);
-    if (n % 2 == 0)
+    scanf("%d", &x);
+    if (x % 2 == 0)
     {
         printf("Event number");
     }

@@ -6,6 +6,6 @@ void greet(char name[]) // এখানে name সেই value গ্রহণ 
 
 int main()
 {
-    greet("Adil");
+    greet("Adil"); //"Adil" হচ্ছে function-এর কাছে পাঠানো value।
     return 0;
 }

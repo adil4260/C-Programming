@@ -5,7 +5,8 @@ int main()
     int sum = 0;
     for (int i = 0; i < 5; i++)
     {
-        scanf("%d", &numbers[i]);
+        printf("Enter number : ");
+        scanf(" %d", &numbers[i]);
     }
     for (int i = 0; i < 5; i++)
     {

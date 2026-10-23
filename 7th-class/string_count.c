@@ -2,7 +2,6 @@
 
 int main()
 {
-
     char name[] = "Adil";
 
     for (int i = 0; name[i] != '\0'; i++)

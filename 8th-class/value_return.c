@@ -7,11 +7,11 @@ int add(int a, int b)
     return a + b;
 }
 
-int main()
+int main()``~~~~
 {
     int result = add(10, 20);
 
-    printf("Result is = %d", result);
+    printf("Result is = %d", re`sult);
 
     return 0;
 }

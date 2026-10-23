@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main()
 {
     int numbers[5];
@@ -20,7 +19,6 @@ int main()
             count++;
         }
     }
-
     printf("Count = %d", count);
 
     return 0;

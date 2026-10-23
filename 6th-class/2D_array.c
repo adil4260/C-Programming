@@ -1,7 +1,6 @@
 // 2D Array হলো row + column
 
 #include <stdio.h>
-
 int main()
 {
     int matrix[2][3] =
@@ -15,7 +14,6 @@ int main()
         {
             printf("%d ", matrix[i][j]);
         }
-
         printf("\n");
     }
     return 0;

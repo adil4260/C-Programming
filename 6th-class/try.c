@@ -8,7 +8,7 @@ int main()
     {
         scanf("%d", &array[i]);
     }
-
+     
     printf("Search: ");
     scanf("%d", &search);
     for (int i = 0; i < 5; i++)
